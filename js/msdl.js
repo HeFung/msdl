@@ -34,11 +34,11 @@ function langJsonStrToHTML(jsonStr) {
     let container = document.createElement('div');
 
     let header = document.createElement('h2');
-    header.textContent = "Select the product language";
+    header.textContent = "选择产品语言";
     container.appendChild(header);
 
     let info = document.createElement('p');
-    info.innerHTML = "You'll need to choose the same language when you install Windows. To see what language you're currently using, go to <strong>Time and language</strong> in PC settings or <strong>Region</strong> in Control Panel.";
+    info.innerHTML = "安装 Windows 时需要选择相同的语言。若要查看当前使用的语言，请转到电脑设置中的<strong>时间和语言</strong>或控制面板中的<strong>区域</strong>.";
     container.appendChild(info);
 
     let select = document.createElement('select');
