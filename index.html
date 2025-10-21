@@ -30,12 +30,12 @@
     </a>
 
     <noscript>
-        <p>This page requires JavaScript to work.</p>
+        <p>此页面需要启用JavaScript才能正常显示.</p>
     </noscript>
 
     <div id="products-list">
         <h2>选择产品</h2>
-        <input id="search-products" type="search" placeholder="Search with regex..." onInput="updateResults();">
+        <input id="search-products" type="search" placeholder="使用正则表达式搜索..." onInput="updateResults();">
         <div id="quick-search">
             📌
             <button onClick="setSearch('Windows 8\\.1');">Windows 8.1</button>
@@ -45,7 +45,7 @@
         <table style="table-layout: auto;">
             <thead>
                 <tr>
-                    <th>Product</th>
+                    <th>产品</th>
                     <th>ID</th>
                 </tr>
             </thead>
@@ -56,19 +56,18 @@
     <div id="msdl-ms-content"></div>
 
     <div id="msdl-please-wait">
-        <h2>Please wait...</h2>
-        <p>Please wait while the data you requested is being retrieved.</p>
+        <h2>请稍等...</h2>
+        <p>请稍候检索您请求的数据 .</p>
     </div>
 
     <div id="msdl-processing-error">
         <h2>Error</h2>
-        <p>An error has occurred while processing your request. If reloading the page does not work, <a
-                href="https://gravesoft.dev/troubleshoot/">contact us</a> or create an issue on GitHub.</p>
+        <p>An error has occurred while processing your request. If reloading the page does not work, contact us or create an issue on GitHub.</p>
     </div>
 
     <div id="back-to-products">
         <hr>
-        <button onClick="backToProducts();">Go back to the product list</button>
+        <button onClick="backToProducts();">返回产品列表</button>
     </div>
 
     <input id="msdl-session-id" type="hidden">
