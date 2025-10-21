@@ -61,7 +61,7 @@ function langJsonStrToHTML(jsonStr) {
 
     let button = document.createElement('button');
     button.id = "submit-sku";
-    button.textContent = "Submit";
+    button.textContent = "提交";
     button.disabled = true;
     button.setAttribute("onClick", "getDownload();");
 
